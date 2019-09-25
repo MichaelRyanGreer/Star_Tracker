@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Star_Tracker_Components)(type Legacy)(uri ${KIPRJMOD}/Library/Star_Tracker_Components.lib)(options "")(descr ""))
+)
