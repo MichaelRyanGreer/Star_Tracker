@@ -527,4 +527,15 @@ Text GLabel 9550 2300 0    50   Input ~ 0
 Step_C
 Text GLabel 9550 2400 0    50   Input ~ 0
 Step_D
+$Comp
+L Connector:Screw_Terminal_01x02 IR_LED
+U 1 1 5D97597E
+P 9900 3700
+F 0 "IR_LED" H 9980 3692 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 9980 3601 50  0000 L CNN
+F 2 "" H 9900 3700 50  0001 C CNN
+F 3 "~" H 9900 3700 50  0001 C CNN
+	1    9900 3700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
