@@ -1,4 +1,10 @@
 EESchema Schematic File Version 4
+LIBS:power
+LIBS:device
+LIBS:74xx
+LIBS:audio
+LIBS:interface
+LIBS:Star Tracker-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -552,4 +558,196 @@ Text GLabel 1950 4850 3    50   Input ~ 0
 GND
 Wire Wire Line
 	1950 4550 1950 4850
+Text GLabel 2700 3950 2    50   Input ~ 0
+AOUT1
+Text GLabel 2700 4050 2    50   Input ~ 0
+AOUT2
+Text GLabel 2700 4150 2    50   Input ~ 0
+BOUT1
+Text GLabel 2700 4250 2    50   Input ~ 0
+BOUT2
+Text GLabel 1200 3950 0    50   Input ~ 0
+AIN1
+Text GLabel 1200 4050 0    50   Input ~ 0
+AIN2
+Text GLabel 1200 4150 0    50   Input ~ 0
+BIN1
+Text GLabel 1200 4250 0    50   Input ~ 0
+BIN2
+Wire Wire Line
+	1200 3950 1350 3950
+Wire Wire Line
+	1200 4050 1350 4050
+Wire Wire Line
+	1200 4150 1350 4150
+Wire Wire Line
+	1200 4250 1350 4250
+Wire Wire Line
+	2550 3950 2700 3950
+Wire Wire Line
+	2550 4050 2700 4050
+Wire Wire Line
+	2550 4150 2700 4150
+Wire Wire Line
+	2550 4250 2700 4250
+Text GLabel 1200 3650 0    50   Input ~ 0
+GND
+Text GLabel 1200 3750 0    50   Input ~ 0
+GND
+Wire Wire Line
+	1200 3650 1350 3650
+Wire Wire Line
+	1200 3750 1350 3750
+Text GLabel 2250 3000 1    50   Input ~ 0
+3V8
+Text GLabel 1200 3450 0    50   Input ~ 0
+3V3
+Text GLabel 700  3150 1    50   Input ~ 0
+3V8
+Text GLabel 1750 2750 1    50   Input ~ 0
+GND
+$Comp
+L Device:C 0.01uf
+U 1 1 5D954C46
+P 700 3400
+F 0 "0.01uf" H 815 3446 50  0000 L CNN
+F 1 "C" H 815 3355 50  0000 L CNN
+F 2 "" H 738 3250 50  0001 C CNN
+F 3 "~" H 700 3400 50  0001 C CNN
+	1    700  3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C 2.2uf
+U 1 1 5D95571D
+P 1750 3000
+F 0 "2.2uf" H 1865 3046 50  0000 L CNN
+F 1 "C" H 1865 2955 50  0000 L CNN
+F 2 "" H 1788 2850 50  0001 C CNN
+F 3 "~" H 1750 3000 50  0001 C CNN
+	1    1750 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C 10uf
+U 1 1 5D955D2C
+P 3500 3750
+F 0 "10uf" H 3615 3796 50  0000 L CNN
+F 1 "C" H 3615 3705 50  0000 L CNN
+F 2 "" H 3538 3600 50  0001 C CNN
+F 3 "~" H 3500 3750 50  0001 C CNN
+	1    3500 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	700  3150 700  3250
+Wire Wire Line
+	700  3550 1350 3550
+Wire Wire Line
+	1750 2750 1750 2850
+Wire Wire Line
+	1750 3150 2150 3150
+Wire Wire Line
+	2250 3000 2250 3150
+Wire Wire Line
+	1200 3450 1350 3450
+Text GLabel 3500 3400 1    50   Input ~ 0
+3V8
+Text GLabel 3500 4100 3    50   Input ~ 0
+GND
+Wire Wire Line
+	3500 3400 3500 3600
+Wire Wire Line
+	3500 3900 3500 4100
+Text GLabel 2700 3750 2    50   Input ~ 0
+nFault
+Wire Wire Line
+	2550 3750 2700 3750
+$Comp
+L Device:R 330Ohm
+U 1 1 5D96EC16
+P 9450 4100
+F 0 "330Ohm" H 9520 4146 50  0000 L CNN
+F 1 "R" H 9520 4055 50  0000 L CNN
+F 2 "" V 9380 4100 50  0001 C CNN
+F 3 "~" H 9450 4100 50  0001 C CNN
+	1    9450 4100
+	1    0    0    -1  
+$EndComp
+Text GLabel 9450 4400 3    50   Input ~ 0
+GND
+Wire Wire Line
+	9700 3800 9450 3800
+Wire Wire Line
+	9450 3800 9450 3950
+Wire Wire Line
+	9450 4250 9450 4400
+Text GLabel 9550 3100 0    50   Input ~ 0
+BTN
+Text GLabel 9550 3300 0    50   Input ~ 0
+ROTCH1
+Text GLabel 9550 3400 0    50   Input ~ 0
+ROTCH2
+Text GLabel 9550 3500 0    50   Input ~ 0
+GND
+Text GLabel 9550 3200 0    50   Input ~ 0
+GND
+Wire Wire Line
+	9550 3100 9700 3100
+Wire Wire Line
+	9700 3200 9550 3200
+Wire Wire Line
+	9550 3300 9700 3300
+Wire Wire Line
+	9700 3400 9550 3400
+Wire Wire Line
+	9700 3500 9550 3500
+Text GLabel 5000 1500 2    50   Input ~ 0
+BTN
+Text GLabel 4850 1050 1    50   Input ~ 0
+3V3
+$Comp
+L Device:R 4.7kOhm
+U 1 1 5D99025B
+P 4850 1250
+F 0 "4.7kOhm" H 4920 1296 50  0000 L CNN
+F 1 "R" H 4920 1205 50  0000 L CNN
+F 2 "" V 4780 1250 50  0001 C CNN
+F 3 "~" H 4850 1250 50  0001 C CNN
+	1    4850 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 1050 4850 1100
+Wire Wire Line
+	4850 1400 4850 1500
+Wire Wire Line
+	4850 1500 5000 1500
+Wire Wire Line
+	4850 1500 4650 1500
+Connection ~ 4850 1500
+Text GLabel 5000 1600 2    50   Input ~ 0
+ROTCH1
+Text GLabel 5000 1700 2    50   Input ~ 0
+ROTCH2
+Text GLabel 3950 2800 3    50   Input ~ 0
+AIN1
+Text GLabel 4050 2800 3    50   Input ~ 0
+AIN2
+Text GLabel 4150 2800 3    50   Input ~ 0
+BIN1
+Text GLabel 4250 2800 3    50   Input ~ 0
+BIN2
+Wire Wire Line
+	3950 2800 3950 2500
+Wire Wire Line
+	4050 2800 4050 2500
+Wire Wire Line
+	4150 2800 4150 2500
+Wire Wire Line
+	4250 2800 4250 2500
+Wire Wire Line
+	5000 1600 4650 1600
+Wire Wire Line
+	5000 1700 4650 1700
 $EndSCHEMATC
