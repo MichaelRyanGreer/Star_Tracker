@@ -1,6 +1,10 @@
 EESchema Schematic File Version 4
 LIBS:power
+LIBS:device
 LIBS:74xx
+LIBS:audio
+LIBS:interface
+LIBS:Star Tracker-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -538,4 +542,56 @@ F 3 "~" H 9900 3700 50  0001 C CNN
 	1    9900 3700
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:LED PWR
+U 1 1 5D8AF065
+P 9850 4800
+F 0 "PWR" H 9843 5016 50  0000 C CNN
+F 1 "LED" H 9843 4925 50  0000 C CNN
+F 2 "" H 9850 4800 50  0001 C CNN
+F 3 "~" H 9850 4800 50  0001 C CNN
+	1    9850 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED Debug
+U 1 1 5D8B0AB5
+P 8800 4800
+F 0 "Debug" H 8793 5016 50  0000 C CNN
+F 1 "LED" H 8793 4925 50  0000 C CNN
+F 2 "" H 8800 4800 50  0001 C CNN
+F 3 "~" H 8800 4800 50  0001 C CNN
+	1    8800 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R 220Ohm
+U 1 1 5D8B33E6
+P 8500 5250
+F 0 "220Ohm" H 8570 5296 50  0000 L CNN
+F 1 "R" H 8570 5205 50  0000 L CNN
+F 2 "" V 8430 5250 50  0001 C CNN
+F 3 "~" H 8500 5250 50  0001 C CNN
+	1    8500 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R 220Ohm
+U 1 1 5D8B3CED
+P 9550 5250
+F 0 "220Ohm" H 9620 5296 50  0000 L CNN
+F 1 "R" H 9620 5205 50  0000 L CNN
+F 2 "" V 9480 5250 50  0001 C CNN
+F 3 "~" H 9550 5250 50  0001 C CNN
+	1    9550 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9700 4800 9550 4800
+Wire Wire Line
+	9550 4800 9550 5100
+Wire Wire Line
+	8650 4800 8500 4800
+Wire Wire Line
+	8500 4800 8500 5100
 $EndSCHEMATC
