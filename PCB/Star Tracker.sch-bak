@@ -20,23 +20,23 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Star_Tracker_Components:ATSAMD21E18A-AU U?
+L Star_Tracker_Components:ATSAMD21E18A-AU U3
 U 1 1 5D873821
 P 4000 1850
-F 0 "U?" H 4694 1896 50  0000 L CNN
+F 0 "U3" H 4694 1896 50  0000 L CNN
 F 1 "ATSAMD21E18A-AU" H 4694 1805 50  0000 L CNN
-F 2 "" H 4000 1850 50  0001 C CNN
+F 2 "Package_QFP:TQFP-32_7x7mm_P0.8mm" H 4000 1850 50  0001 C CNN
 F 3 "" H 4000 1850 50  0001 C CNN
 	1    4000 1850
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C 100nf
+L Device:C 100nf3
 U 1 1 5D87AC8C
 P 2450 1050
-F 0 "100nf" H 2565 1096 50  0000 L CNN
+F 0 "100nf3" H 2565 1096 50  0000 L CNN
 F 1 "C" H 2565 1005 50  0000 L CNN
-F 2 "" H 2488 900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 2488 900 50  0001 C CNN
 F 3 "~" H 2450 1050 50  0001 C CNN
 	1    2450 1050
 	1    0    0    -1  
@@ -62,56 +62,56 @@ Wire Wire Line
 Wire Wire Line
 	3750 2500 3750 2800
 $Comp
-L Device:C 100nf
+L Device:C 100nf2
 U 1 1 5D87E676
 P 2100 1050
-F 0 "100nf" H 2215 1096 50  0000 L CNN
+F 0 "100nf2" H 2215 1096 50  0000 L CNN
 F 1 "C" H 2215 1005 50  0000 L CNN
-F 2 "" H 2138 900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 2138 900 50  0001 C CNN
 F 3 "~" H 2100 1050 50  0001 C CNN
 	1    2100 1050
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C 100nf
+L Device:C 100nf1
 U 1 1 5D87F478
 P 1750 1050
-F 0 "100nf" H 1865 1096 50  0000 L CNN
+F 0 "100nf1" H 1865 1096 50  0000 L CNN
 F 1 "C" H 1865 1005 50  0000 L CNN
-F 2 "" H 1788 900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 1788 900 50  0001 C CNN
 F 3 "~" H 1750 1050 50  0001 C CNN
 	1    1750 1050
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C 1uf
+L Device:C 1uf1
 U 1 1 5D87FE77
 P 1400 1050
-F 0 "1uf" H 1515 1096 50  0000 L CNN
+F 0 "1uf1" H 1515 1096 50  0000 L CNN
 F 1 "C" H 1515 1005 50  0000 L CNN
-F 2 "" H 1438 900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 1438 900 50  0001 C CNN
 F 3 "~" H 1400 1050 50  0001 C CNN
 	1    1400 1050
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C 10uf
+L Device:C 10uf2
 U 1 1 5D880C30
 P 1050 1050
-F 0 "10uf" H 1165 1096 50  0000 L CNN
+F 0 "10uf2" H 1165 1096 50  0000 L CNN
 F 1 "C" H 1165 1005 50  0000 L CNN
-F 2 "" H 1088 900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 1088 900 50  0001 C CNN
 F 3 "~" H 1050 1050 50  0001 C CNN
 	1    1050 1050
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C 10uf
+L Device:C 10uf1
 U 1 1 5D881216
 P 700 1050
-F 0 "10uf" H 815 1096 50  0000 L CNN
+F 0 "10uf1" H 815 1096 50  0000 L CNN
 F 1 "C" H 815 1005 50  0000 L CNN
-F 2 "" H 738 900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 738 900 50  0001 C CNN
 F 3 "~" H 700 1050 50  0001 C CNN
 	1    700  1050
 	1    0    0    -1  
@@ -181,12 +181,12 @@ Wire Wire Line
 Wire Wire Line
 	5000 2200 4650 2200
 $Comp
-L Connector:Conn_ARM_JTAG_SWD_10 J?
+L Connector:Conn_ARM_JTAG_SWD_10 J1
 U 1 1 5D889DA2
 P 6900 1650
-F 0 "J?" H 6457 1696 50  0000 R CNN
+F 0 "J1" H 6457 1696 50  0000 R CNN
 F 1 "Conn_ARM_JTAG_SWD_10" H 6457 1605 50  0000 R CNN
-F 2 "" H 6900 1650 50  0001 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD" H 6900 1650 50  0001 C CNN
 F 3 "http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf" V 6550 400 50  0001 C CNN
 	1    6900 1650
 	1    0    0    -1  
@@ -216,10 +216,10 @@ Wire Wire Line
 Wire Wire Line
 	6800 2250 6800 2400
 $Comp
-L Driver_Motor:DRV8833PW U?
+L Driver_Motor:DRV8833PW U2
 U 1 1 5D8A66B7
 P 1950 3850
-F 0 "U?" H 1950 3061 50  0000 C CNN
+F 0 "U2" H 1950 3061 50  0000 C CNN
 F 1 "DRV8833PW" H 1950 2970 50  0000 C CNN
 F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 2400 4300 50  0001 L CNN
 F 3 "http://www.ti.com/lit/ds/symlink/drv8833.pdf" H 1800 4400 50  0001 C CNN
@@ -227,12 +227,12 @@ F 3 "http://www.ti.com/lit/ds/symlink/drv8833.pdf" H 1800 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Star_Tracker_Components:NCV565D2TG-ND U?
+L Star_Tracker_Components:NCV565D2TG-ND U1
 U 1 1 5D8BDB71
 P 1600 6450
-F 0 "U?" H 1600 6825 50  0000 C CNN
+F 0 "U1" H 1600 6825 50  0000 C CNN
 F 1 "NCV565D2TG-ND" H 1600 6734 50  0000 C CNN
-F 2 "" H 1600 6450 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:TO-263-5_TabPin6" H 1600 6450 50  0001 C CNN
 F 3 "" H 1600 6450 50  0001 C CNN
 	1    1600 6450
 	1    0    0    -1  
@@ -250,23 +250,23 @@ Wire Wire Line
 Wire Wire Line
 	2150 6300 2250 6300
 $Comp
-L Device:R 93k
+L Device:R 93k1
 U 1 1 5D8C118C
 P 2700 6600
-F 0 "93k" H 2770 6646 50  0000 L CNN
+F 0 "93k1" H 2770 6646 50  0000 L CNN
 F 1 "R" H 2770 6555 50  0000 L CNN
-F 2 "" V 2630 6600 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 2630 6600 50  0001 C CNN
 F 3 "~" H 2700 6600 50  0001 C CNN
 	1    2700 6600
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R 300k
+L Device:R 300k1
 U 1 1 5D8C16CD
 P 2700 7100
-F 0 "300k" H 2770 7146 50  0000 L CNN
+F 0 "300k1" H 2770 7146 50  0000 L CNN
 F 1 "R" H 2770 7055 50  0000 L CNN
-F 2 "" V 2630 7100 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 2630 7100 50  0001 C CNN
 F 3 "~" H 2700 7100 50  0001 C CNN
 	1    2700 7100
 	1    0    0    -1  
@@ -299,12 +299,12 @@ Connection ~ 1600 6950
 Wire Wire Line
 	1600 6950 1600 7100
 $Comp
-L Device:C 5.6pf
+L Device:C 5.6pf1
 U 1 1 5D8C41FD
 P 2250 6450
-F 0 "5.6pf" H 2365 6496 50  0000 L CNN
+F 0 "5.6pf1" H 2365 6496 50  0000 L CNN
 F 1 "C" H 2365 6405 50  0000 L CNN
-F 2 "" H 2288 6300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 2288 6300 50  0001 C CNN
 F 3 "~" H 2250 6450 50  0001 C CNN
 	1    2250 6450
 	1    0    0    -1  
@@ -316,23 +316,23 @@ Connection ~ 2250 6600
 Wire Wire Line
 	2250 6600 2400 6600
 $Comp
-L Device:C 150uf
+L Device:C 150uf1
 U 1 1 5D8C9953
 P 3400 6800
-F 0 "150uf" H 3515 6846 50  0000 L CNN
+F 0 "150uf1" H 3515 6846 50  0000 L CNN
 F 1 "C" H 3515 6755 50  0000 L CNN
-F 2 "" H 3438 6650 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 3438 6650 50  0001 C CNN
 F 3 "~" H 3400 6800 50  0001 C CNN
 	1    3400 6800
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C 150uf
+L Device:C 150uf2
 U 1 1 5D8C9EFB
 P 3850 6800
-F 0 "150uf" H 3965 6846 50  0000 L CNN
+F 0 "150uf2" H 3965 6846 50  0000 L CNN
 F 1 "C" H 3965 6755 50  0000 L CNN
-F 2 "" H 3888 6650 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 3888 6650 50  0001 C CNN
 F 3 "~" H 3850 6800 50  0001 C CNN
 	1    3850 6800
 	1    0    0    -1  
@@ -354,12 +354,12 @@ Wire Wire Line
 Wire Wire Line
 	3850 6950 3850 7100
 $Comp
-L Star_Tracker_Components:AP7312-1833W6-7 U?
+L Star_Tracker_Components:AP7312-1833W6-7 U4
 U 1 1 5D8D4C01
 P 5500 5350
-F 0 "U?" H 5500 5875 50  0000 C CNN
+F 0 "U4" H 5500 5875 50  0000 C CNN
 F 1 "AP7312-1833W6-7" H 5500 5784 50  0000 C CNN
-F 2 "" H 5500 5350 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" H 5500 5350 50  0001 C CNN
 F 3 "" H 5500 5350 50  0001 C CNN
 	1    5500 5350
 	1    0    0    -1  
@@ -393,34 +393,34 @@ Wire Wire Line
 	4800 5600 4800 5450
 Connection ~ 4800 5450
 $Comp
-L Device:C 1uf
+L Device:C 1uf2
 U 1 1 5D8E21AA
 P 5000 6800
-F 0 "1uf" H 5115 6846 50  0000 L CNN
+F 0 "1uf2" H 5115 6846 50  0000 L CNN
 F 1 "C" H 5115 6755 50  0000 L CNN
-F 2 "" H 5038 6650 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 5038 6650 50  0001 C CNN
 F 3 "~" H 5000 6800 50  0001 C CNN
 	1    5000 6800
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C 1uf
+L Device:C 1uf3
 U 1 1 5D8E29D0
 P 5500 6800
-F 0 "1uf" H 5615 6846 50  0000 L CNN
+F 0 "1uf3" H 5615 6846 50  0000 L CNN
 F 1 "C" H 5615 6755 50  0000 L CNN
-F 2 "" H 5538 6650 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 5538 6650 50  0001 C CNN
 F 3 "~" H 5500 6800 50  0001 C CNN
 	1    5500 6800
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C 1uf
+L Device:C 1uf4
 U 1 1 5D8E30F4
 P 6000 6800
-F 0 "1uf" H 6115 6846 50  0000 L CNN
+F 0 "1uf4" H 6115 6846 50  0000 L CNN
 F 1 "C" H 6115 6755 50  0000 L CNN
-F 2 "" H 6038 6650 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 6038 6650 50  0001 C CNN
 F 3 "~" H 6000 6800 50  0001 C CNN
 	1    6000 6800
 	1    0    0    -1  
@@ -450,45 +450,45 @@ Wire Wire Line
 Wire Wire Line
 	6000 6950 6000 7100
 $Comp
-L Connector:Screw_Terminal_01x04 StepperMotor
+L Connector:Screw_Terminal_01x04 StepperMotor1
 U 1 1 5D90B44C
 P 9900 2200
-F 0 "StepperMotor" H 9980 2192 50  0000 L CNN
+F 0 "StepperMotor1" H 9980 2192 50  0000 L CNN
 F 1 "Screw_Terminal_01x04" H 9980 2101 50  0000 L CNN
-F 2 "" H 9900 2200 50  0001 C CNN
+F 2 "Connector_Phoenix_MC:PhoenixContact_MC_1,5_4-G-3.5_1x04_P3.50mm_Horizontal" H 9900 2200 50  0001 C CNN
 F 3 "~" H 9900 2200 50  0001 C CNN
 	1    9900 2200
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Screw_Terminal_01x04 Screen
+L Connector:Screw_Terminal_01x04 Screen1
 U 1 1 5D916275
 P 9900 2700
-F 0 "Screen" H 9980 2692 50  0000 L CNN
+F 0 "Screen1" H 9980 2692 50  0000 L CNN
 F 1 "Screw_Terminal_01x04" H 9980 2601 50  0000 L CNN
-F 2 "" H 9900 2700 50  0001 C CNN
+F 2 "Connector_Phoenix_MC:PhoenixContact_MC_1,5_4-G-3.5_1x04_P3.50mm_Horizontal" H 9900 2700 50  0001 C CNN
 F 3 "~" H 9900 2700 50  0001 C CNN
 	1    9900 2700
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Screw_Terminal_01x05 RotaryEncoder
+L Connector:Screw_Terminal_01x05 RotaryEncoder1
 U 1 1 5D917A68
 P 9900 3300
-F 0 "RotaryEncoder" H 9980 3342 50  0000 L CNN
+F 0 "RotaryEncoder1" H 9980 3342 50  0000 L CNN
 F 1 "Screw_Terminal_01x05" H 9980 3251 50  0000 L CNN
-F 2 "" H 9900 3300 50  0001 C CNN
+F 2 "Connector_Phoenix_MC:PhoenixContact_MC_1,5_5-G-3.5_1x05_P3.50mm_Horizontal" H 9900 3300 50  0001 C CNN
 F 3 "~" H 9900 3300 50  0001 C CNN
 	1    9900 3300
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Screw_Terminal_01x04 PWR
+L Connector:Screw_Terminal_01x04 PWR1
 U 1 1 5D929B67
 P 9900 1700
-F 0 "PWR" H 9980 1692 50  0000 L CNN
+F 0 "PWR1" H 9980 1692 50  0000 L CNN
 F 1 "Screw_Terminal_01x04" H 9980 1601 50  0000 L CNN
-F 2 "" H 9900 1700 50  0001 C CNN
+F 2 "Connector_Phoenix_MC:PhoenixContact_MC_1,5_4-G-3.5_1x04_P3.50mm_Horizontal" H 9900 1700 50  0001 C CNN
 F 3 "~" H 9900 1700 50  0001 C CNN
 	1    9900 1700
 	1    0    0    -1  
@@ -532,12 +532,12 @@ Step_C
 Text GLabel 9550 2400 0    50   Input ~ 0
 Step_D
 $Comp
-L Connector:Screw_Terminal_01x02 IR_LED
+L Connector:Screw_Terminal_01x02 IR_LED1
 U 1 1 5D97597E
 P 9900 3700
-F 0 "IR_LED" H 9980 3692 50  0000 L CNN
+F 0 "IR_LED1" H 9980 3692 50  0000 L CNN
 F 1 "Screw_Terminal_01x02" H 9980 3601 50  0000 L CNN
-F 2 "" H 9900 3700 50  0001 C CNN
+F 2 "Connector_Phoenix_MC:PhoenixContact_MC_1,5_2-G-3.5_1x02_P3.50mm_Horizontal" H 9900 3700 50  0001 C CNN
 F 3 "~" H 9900 3700 50  0001 C CNN
 	1    9900 3700
 	1    0    0    -1  
@@ -607,34 +607,34 @@ Text GLabel 700  3150 1    50   Input ~ 0
 Text GLabel 1750 2750 1    50   Input ~ 0
 GND
 $Comp
-L Device:C 0.01uf
+L Device:C 0.01uf1
 U 1 1 5D954C46
 P 700 3400
-F 0 "0.01uf" H 815 3446 50  0000 L CNN
+F 0 "0.01uf1" H 815 3446 50  0000 L CNN
 F 1 "C" H 815 3355 50  0000 L CNN
-F 2 "" H 738 3250 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 738 3250 50  0001 C CNN
 F 3 "~" H 700 3400 50  0001 C CNN
 	1    700  3400
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C 2.2uf
+L Device:C 2.2uf1
 U 1 1 5D95571D
 P 1750 3000
-F 0 "2.2uf" H 1865 3046 50  0000 L CNN
+F 0 "2.2uf1" H 1865 3046 50  0000 L CNN
 F 1 "C" H 1865 2955 50  0000 L CNN
-F 2 "" H 1788 2850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 1788 2850 50  0001 C CNN
 F 3 "~" H 1750 3000 50  0001 C CNN
 	1    1750 3000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C 10uf
+L Device:C 10uf3
 U 1 1 5D955D2C
 P 3500 3750
-F 0 "10uf" H 3615 3796 50  0000 L CNN
+F 0 "10uf3" H 3615 3796 50  0000 L CNN
 F 1 "C" H 3615 3705 50  0000 L CNN
-F 2 "" H 3538 3600 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 3538 3600 50  0001 C CNN
 F 3 "~" H 3500 3750 50  0001 C CNN
 	1    3500 3750
 	1    0    0    -1  
@@ -664,12 +664,12 @@ nFault
 Wire Wire Line
 	2550 3750 2700 3750
 $Comp
-L Device:R 330Ohm
+L Device:R 330Ohm1
 U 1 1 5D96EC16
 P 9450 4100
-F 0 "330Ohm" H 9520 4146 50  0000 L CNN
+F 0 "330Ohm1" H 9520 4146 50  0000 L CNN
 F 1 "R" H 9520 4055 50  0000 L CNN
-F 2 "" V 9380 4100 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 9380 4100 50  0001 C CNN
 F 3 "~" H 9450 4100 50  0001 C CNN
 	1    9450 4100
 	1    0    0    -1  
@@ -682,4 +682,76 @@ Wire Wire Line
 	9450 3800 9450 3950
 Wire Wire Line
 	9450 4250 9450 4400
+Text GLabel 9550 3100 0    50   Input ~ 0
+BTN
+Text GLabel 9550 3300 0    50   Input ~ 0
+ROTCH1
+Text GLabel 9550 3400 0    50   Input ~ 0
+ROTCH2
+Text GLabel 9550 3500 0    50   Input ~ 0
+GND
+Text GLabel 9550 3200 0    50   Input ~ 0
+GND
+Wire Wire Line
+	9550 3100 9700 3100
+Wire Wire Line
+	9700 3200 9550 3200
+Wire Wire Line
+	9550 3300 9700 3300
+Wire Wire Line
+	9700 3400 9550 3400
+Wire Wire Line
+	9700 3500 9550 3500
+Text GLabel 5000 1500 2    50   Input ~ 0
+BTN
+Text GLabel 4850 1050 1    50   Input ~ 0
+3V3
+$Comp
+L Device:R 4.7kOhm1
+U 1 1 5D99025B
+P 4850 1250
+F 0 "4.7kOhm1" H 4920 1296 50  0000 L CNN
+F 1 "R" H 4920 1205 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 4780 1250 50  0001 C CNN
+F 3 "~" H 4850 1250 50  0001 C CNN
+	1    4850 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 1050 4850 1100
+Wire Wire Line
+	4850 1400 4850 1500
+Wire Wire Line
+	4850 1500 5000 1500
+Wire Wire Line
+	4850 1500 4650 1500
+Connection ~ 4850 1500
+Text GLabel 5000 1600 2    50   Input ~ 0
+ROTCH1
+Text GLabel 5000 1700 2    50   Input ~ 0
+ROTCH2
+Text GLabel 3950 2800 3    50   Input ~ 0
+AIN1
+Text GLabel 4050 2800 3    50   Input ~ 0
+AIN2
+Text GLabel 4150 2800 3    50   Input ~ 0
+BIN1
+Text GLabel 4250 2800 3    50   Input ~ 0
+BIN2
+Wire Wire Line
+	3950 2800 3950 2500
+Wire Wire Line
+	4050 2800 4050 2500
+Wire Wire Line
+	4150 2800 4150 2500
+Wire Wire Line
+	4250 2800 4250 2500
+Wire Wire Line
+	5000 1600 4650 1600
+Wire Wire Line
+	5000 1700 4650 1700
+Text GLabel 850  6700 0    50   Input ~ 0
+GND
+Wire Wire Line
+	850  6700 1050 6700
 $EndSCHEMATC
