@@ -829,4 +829,23 @@ Text GLabel 3100 1500 0    50   Input ~ 0
 ACT
 Wire Wire Line
 	3350 1500 3100 1500
+$Comp
+L Device:C 1uf5
+U 1 1 5DA3F7E8
+P 7800 2450
+F 0 "1uf5" H 7915 2496 50  0000 L CNN
+F 1 "C" H 7915 2405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 7838 2300 50  0001 C CNN
+F 3 "~" H 7800 2450 50  0001 C CNN
+	1    7800 2450
+	1    0    0    -1  
+$EndComp
+Text GLabel 7800 2200 1    50   Input ~ 0
+3V3
+Text GLabel 7800 2700 3    50   Input ~ 0
+GND
+Wire Wire Line
+	7800 2200 7800 2300
+Wire Wire Line
+	7800 2600 7800 2700
 $EndSCHEMATC
