@@ -236,43 +236,38 @@ Wire Wire Line
 $Comp
 L Device:R 93k1
 U 1 1 5D8C118C
-P 2700 6600
-F 0 "93k1" H 2770 6646 50  0000 L CNN
-F 1 "R" H 2770 6555 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 2630 6600 50  0001 C CNN
-F 3 "~" H 2700 6600 50  0001 C CNN
-	1    2700 6600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R 300k1
-U 1 1 5D8C16CD
 P 2700 7100
-F 0 "300k1" H 2770 7146 50  0000 L CNN
+F 0 "93k1" H 2770 7146 50  0000 L CNN
 F 1 "R" H 2770 7055 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 2630 7100 50  0001 C CNN
 F 3 "~" H 2700 7100 50  0001 C CNN
 	1    2700 7100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2700 6450 2700 6300
+$Comp
+L Device:R 300k1
+U 1 1 5D8C16CD
+P 2700 6700
+F 0 "300k1" H 2770 6746 50  0000 L CNN
+F 1 "R" H 2770 6655 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 2630 6700 50  0001 C CNN
+F 3 "~" H 2700 6700 50  0001 C CNN
+	1    2700 6700
+	1    0    0    -1  
+$EndComp
 Connection ~ 2700 6300
 Wire Wire Line
 	2700 6300 2800 6300
 Wire Wire Line
-	2700 6750 2700 6850
+	2700 7250 2700 7350
 Wire Wire Line
 	2150 6600 2250 6600
 Wire Wire Line
 	2400 6600 2400 6850
 Wire Wire Line
 	2400 6850 2700 6850
-Connection ~ 2700 6850
 Wire Wire Line
 	2700 6850 2700 6950
-Wire Wire Line
-	2700 7250 2700 7350
 Wire Wire Line
 	2700 7350 2050 7350
 Wire Wire Line
@@ -848,4 +843,7 @@ Wire Wire Line
 	7800 2200 7800 2300
 Wire Wire Line
 	7800 2600 7800 2700
+Connection ~ 2700 6850
+Wire Wire Line
+	2700 6300 2700 6550
 $EndSCHEMATC
